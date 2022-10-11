@@ -1,10 +1,9 @@
 import React from "react";
 
-export default function Row() {
+export default function RowReverse() {
     return(
         <div class="bg-gray-700 flex content-center items-center justify-center h-[100vh] text-slate-600">
             <div>
-               <div class="w-20 h-20 bg-black"></div> 
                <div class="w-20 h-20 bg-white"></div> 
                <div class="w-20 h-20 bg-black"></div>  
                <div class="w-20 h-20 bg-white"></div> 
@@ -13,6 +12,7 @@ export default function Row() {
                <div class="w-20 h-20 bg-black"></div> 
                <div class="w-20 h-20 bg-white"></div> 
                <div class="w-20 h-20 bg-black"></div> 
+               <div class="w-20 h-20 bg-white"></div> 
             </div>
         </div>
     )
