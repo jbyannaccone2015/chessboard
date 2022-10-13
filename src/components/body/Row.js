@@ -1,4 +1,5 @@
 import React from "react";
+// import { GiChessBishop, GiChessKing, GiChessKnight, GiChessPawn, GiChessQueen, GiChessRook } from "react-icons/gi";
 
 export default function Row() {
     return(
